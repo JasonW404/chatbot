@@ -3,8 +3,8 @@
 This is a Chatbot web app that uses the Ollama API to chat with a locally deployed LLM model.
 
 <div style="display: flex; flex-direction: row;">
-  <img src="img/page_demo_1.png" alt="Chatbot" width="500rem">
-  <img src="img/page_demo_2.png" alt="Chatbot Dark" width="500rem">
+  <img src="img/page_demo_1.png" alt="Chatbot" width="400rem">
+  <img src="img/page_demo_2.png" alt="Chatbot Dark" width="400rem">
 </div>
 
 ## Features and Todos
