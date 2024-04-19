@@ -63,7 +63,7 @@ Common styles are applied using [Tailwind CSS](https://tailwindcss.com/).
 
 **Color Palette**
 
-<img src="doc/img/color_palette.png" alt="Color palette" style="max-height: 6rem;">
+<img src="img/color_palette.png" alt="Color palette" style="max-height: 6rem;">
 
 Color consistences of `Material-UI` components with `TailwindCSS` are applied via the `MuiThemeWrapper` at `components/muiThemeWrapper.js`.
 
