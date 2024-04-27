@@ -63,7 +63,81 @@ Common styles are applied using [Tailwind CSS](https://tailwindcss.com/).
 
 **Color Palette**
 
-<img src="img/color_palette.png" alt="Color palette" style="max-height: 6rem;">
+<div style="display: flex; margin-bottom: 8px; gap: 4px; justify-content: flex-start; align-items: start;">
+  <div style="">
+    <p style="font-family: monospace; font-weight: bold; line-height: 0%;">Neutral</p>
+  </div>
+
+  <div
+    style="width: fit-content; display: flex; flex-wrap: wrap; gap: 8px; font-family: monospace; text-align: left; border: 0px solid #000;">
+    <div
+      style="width: fit-content; height: fit-content; ">
+      <div style="background-color: #fafafa; height: 40px; border-radius: 4px;"></div>
+      <p style="margin: 2; line-height: 14px">50</p>
+      <p style="margin: 2; line-height: 14px">#fafafa</p>
+    </div>
+    <div
+      style="width: fit-content; height: fit-content; ">
+      <div style="background-color: #f5f5f5; height: 40px; border-radius: 4px;"></div>
+      <p style="margin: 2; line-height: 14px">100</p>
+      <p style="margin: 2; line-height: 14px">#f5f5f5</p>
+    </div>
+    <div
+      style="width: fit-content; height: fit-content; ">
+      <div style="background-color: #e5e5e5; height: 40px; border-radius: 4px;"></div>
+      <p style="margin: 2; line-height: 14px">200</p>
+      <p style="margin: 2; line-height: 14px">#e5e5e5</p>
+    </div>
+    <div
+      style="width: fit-content; height: fit-content; ">
+      <div style="background-color: #d4d4d4; height: 40px; border-radius: 4px;"></div>
+      <p style="margin: 2; line-height: 14px">300</p>
+      <p style="margin: 2; line-height: 14px">#d4d4d4</p>
+    </div>
+    <div
+      style="width: fit-content; height: fit-content; ">
+      <div style="background-color: #a3a3a3; height: 40px; border-radius: 4px;"></div>
+      <p style="margin: 2; line-height: 14px">400</p>
+      <p style="margin: 2; line-height: 14px">#a3a3a3</p>
+    </div>
+    <div
+      style="width: fit-content; height: fit-content; ">
+      <div style="background-color: #737373; height: 40px; border-radius: 4px;"></div>
+      <p style="margin: 2; line-height: 14px">500</p>
+      <p style="margin: 2; line-height: 14px">#737373</p>
+    </div>
+    <div
+      style="width: fit-content; height: fit-content; ">
+      <div style="background-color: #525252; height: 40px; border-radius: 4px;"></div>
+      <p style="margin: 2; line-height: 14px;">600</p>
+      <p style="margin: 2; line-height: 14px;">#525252</p>
+    </div>
+    <div
+      style="width: fit-content; height: fit-content; ">
+      <div style="background-color: #404040; height: 40px; border-radius: 4px;"></div>
+      <p style="margin: 2; line-height: 14px;">700</p>
+      <p style="margin: 2; line-height: 14px;">#404040</p>
+    </div>
+    <div
+      style="width: fit-content; height: fit-content; ">
+      <div style="background-color: #262626; height: 40px; border-radius: 4px;"></div>
+      <p style="margin: 2; line-height: 14px;">800</p>
+      <p style="margin: 2; line-height: 14px;">#262626</p>
+    </div>
+    <div
+      style="width: fit-content; height: fit-content; ">
+      <div style="background-color: #171717; height: 40px; border-radius: 4px;"></div>
+      <p style="margin: 2; line-height: 14px;">900</p>
+      <p style="margin: 2; line-height: 14px;">#171717</p>
+    </div>
+    <div
+      style="width: fit-content; height: fit-content; ">
+      <div style="background-color: #0a0a0a; height: 40px; border-radius: 4px;"></div>
+      <p style="margin: 2; line-height: 14px;">950</p>
+      <p style="margin: 2; line-height: 14px;">#0a0a0a</p>
+    </div>
+  </div>
+</div>
 
 Color consistences of `Material-UI` components with `TailwindCSS` are applied via the `MuiThemeWrapper` at `components/muiThemeWrapper.js`.
 
